@@ -1,0 +1,70 @@
+Collecting tensorflow-datasets
+  Using cached tensorflow_datasets-4.9.9-py3-none-any.whl.metadata (11 kB)
+Requirement already satisfied: absl-py in /dss/dsshome1/00/di97nip/.conda/envs/kubric_creator/lib/python3.10/site-packages (from tensorflow-datasets) (2.3.1)
+Collecting array_record>=0.5.0 (from tensorflow-datasets)
+  Using cached array_record-0.7.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (899 bytes)
+Collecting dm-tree (from tensorflow-datasets)
+  Using cached dm_tree-0.1.9-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.2 kB)
+Requirement already satisfied: etils>=1.6.0 in /dss/dsshome1/00/di97nip/.conda/envs/kubric_creator/lib/python3.10/site-packages (from etils[edc,enp,epath,epy,etree]>=1.6.0; python_version < "3.11"->tensorflow-datasets) (1.12.2)
+Collecting immutabledict (from tensorflow-datasets)
+  Using cached immutabledict-4.2.1-py3-none-any.whl.metadata (3.5 kB)
+Requirement already satisfied: numpy in /dss/dsshome1/00/di97nip/.conda/envs/kubric_creator/lib/python3.10/site-packages (from tensorflow-datasets) (2.0.1)
+Collecting promise (from tensorflow-datasets)
+  Using cached promise-2.3.tar.gz (19 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: protobuf>=3.20 in /dss/dsshome1/00/di97nip/.conda/envs/kubric_creator/lib/python3.10/site-packages (from tensorflow-datasets) (5.29.5)
+Collecting psutil (from tensorflow-datasets)
+  Using cached psutil-7.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (22 kB)
+Requirement already satisfied: pyarrow in /dss/dsshome1/00/di97nip/.conda/envs/kubric_creator/lib/python3.10/site-packages (from tensorflow-datasets) (18.1.0)
+Requirement already satisfied: requests>=2.19.0 in /dss/dsshome1/00/di97nip/.conda/envs/kubric_creator/lib/python3.10/site-packages (from tensorflow-datasets) (2.32.4)
+Collecting simple_parsing (from tensorflow-datasets)
+  Using cached simple_parsing-0.1.7-py3-none-any.whl.metadata (7.3 kB)
+Collecting tensorflow-metadata (from tensorflow-datasets)
+  Using cached tensorflow_metadata-1.17.2-py3-none-any.whl.metadata (2.5 kB)
+Requirement already satisfied: termcolor in /dss/dsshome1/00/di97nip/.conda/envs/kubric_creator/lib/python3.10/site-packages (from tensorflow-datasets) (3.1.0)
+Collecting toml (from tensorflow-datasets)
+  Using cached toml-0.10.2-py2.py3-none-any.whl.metadata (7.1 kB)
+Requirement already satisfied: tqdm in /dss/dsshome1/00/di97nip/.conda/envs/kubric_creator/lib/python3.10/site-packages (from tensorflow-datasets) (4.67.1)
+Requirement already satisfied: wrapt in /dss/dsshome1/00/di97nip/.conda/envs/kubric_creator/lib/python3.10/site-packages (from tensorflow-datasets) (1.17.2)
+Collecting einops (from etils[edc,enp,epath,epy,etree]>=1.6.0; python_version < "3.11"->tensorflow-datasets)
+  Using cached einops-0.8.1-py3-none-any.whl.metadata (13 kB)
+Requirement already satisfied: typing_extensions in /dss/dsshome1/00/di97nip/.conda/envs/kubric_creator/lib/python3.10/site-packages (from etils[edc,enp,epath,epy,etree]>=1.6.0; python_version < "3.11"->tensorflow-datasets) (4.12.2)
+Requirement already satisfied: fsspec in /dss/dsshome1/00/di97nip/.conda/envs/kubric_creator/lib/python3.10/site-packages (from etils[edc,enp,epath,epy,etree]>=1.6.0; python_version < "3.11"->tensorflow-datasets) (2025.5.1)
+Collecting importlib_resources (from etils[edc,enp,epath,epy,etree]>=1.6.0; python_version < "3.11"->tensorflow-datasets)
+  Using cached importlib_resources-6.5.2-py3-none-any.whl.metadata (3.9 kB)
+Requirement already satisfied: zipp in /dss/dsshome1/00/di97nip/.conda/envs/kubric_creator/lib/python3.10/site-packages (from etils[edc,enp,epath,epy,etree]>=1.6.0; python_version < "3.11"->tensorflow-datasets) (3.23.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in /dss/dsshome1/00/di97nip/.conda/envs/kubric_creator/lib/python3.10/site-packages (from requests>=2.19.0->tensorflow-datasets) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /dss/dsshome1/00/di97nip/.conda/envs/kubric_creator/lib/python3.10/site-packages (from requests>=2.19.0->tensorflow-datasets) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /dss/dsshome1/00/di97nip/.conda/envs/kubric_creator/lib/python3.10/site-packages (from requests>=2.19.0->tensorflow-datasets) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in /dss/dsshome1/00/di97nip/.conda/envs/kubric_creator/lib/python3.10/site-packages (from requests>=2.19.0->tensorflow-datasets) (2025.6.15)
+Requirement already satisfied: attrs>=18.2.0 in /dss/dsshome1/00/di97nip/.conda/envs/kubric_creator/lib/python3.10/site-packages (from dm-tree->tensorflow-datasets) (25.3.0)
+Requirement already satisfied: six in /dss/dsshome1/00/di97nip/.conda/envs/kubric_creator/lib/python3.10/site-packages (from promise->tensorflow-datasets) (1.17.0)
+Requirement already satisfied: docstring-parser<1.0,>=0.15 in /dss/dsshome1/00/di97nip/.conda/envs/kubric_creator/lib/python3.10/site-packages (from simple_parsing->tensorflow-datasets) (0.16)
+Collecting protobuf>=3.20 (from tensorflow-datasets)
+  Using cached protobuf-4.21.12-cp37-abi3-manylinux2014_x86_64.whl.metadata (541 bytes)
+Using cached tensorflow_datasets-4.9.9-py3-none-any.whl (5.3 MB)
+Downloading array_record-0.7.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 8.2 MB/s eta 0:00:00
+Using cached dm_tree-0.1.9-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (152 kB)
+Using cached einops-0.8.1-py3-none-any.whl (64 kB)
+Using cached immutabledict-4.2.1-py3-none-any.whl (4.7 kB)
+Using cached importlib_resources-6.5.2-py3-none-any.whl (37 kB)
+Using cached psutil-7.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (277 kB)
+Using cached simple_parsing-0.1.7-py3-none-any.whl (112 kB)
+Using cached tensorflow_metadata-1.17.2-py3-none-any.whl (31 kB)
+Using cached protobuf-4.21.12-cp37-abi3-manylinux2014_x86_64.whl (409 kB)
+Using cached toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Building wheels for collected packages: promise
+  Building wheel for promise (setup.py): started
+  Building wheel for promise (setup.py): finished with status 'done'
+  Created wheel for promise: filename=promise-2.3-py3-none-any.whl size=21582 sha256=ae7266b40cc033550e29d5e8412e493f060318a7ca20891d29fa1734ec0b0100
+  Stored in directory: /dss/dsshome1/00/di97nip/.cache/pip/wheels/54/4e/28/3ed0e1c8a752867445bab994d2340724928aa3ab059c57c8db
+Successfully built promise
+Installing collected packages: toml, simple_parsing, psutil, protobuf, promise, importlib_resources, immutabledict, einops, dm-tree, tensorflow-metadata, array_record, tensorflow-datasets
+  Attempting uninstall: protobuf
+    Found existing installation: protobuf 5.29.5
+    Uninstalling protobuf-5.29.5:
+      Successfully uninstalled protobuf-5.29.5
+
+Successfully installed array_record-0.7.2 dm-tree-0.1.9 einops-0.8.1 immutabledict-4.2.1 importlib_resources-6.5.2 promise-2.3 protobuf-4.21.12 psutil-7.0.0 simple_parsing-0.1.7 tensorflow-datasets-4.9.9 tensorflow-metadata-1.17.2 toml-0.10.2

@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Export Kubric MV",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/export_kub_mv_new.py",
+            "args": [
+                "--mass_est_fp=gpt_mass_v4.txt",
+                "--root_dp=/dss/dsstbyfs02/pn52ko/pn52ko-dss-0000/di97nip/Kubric_generation",
+                "--num_scenes=3000",
+                "--num_workers=1",
+                "--restart_count=30",
+                "--seed=900000",
+                "--num_views=16",
+                "--frame_width=576",
+                "--frame_height=384",
+                "--num_frames=60",
+                "--frame_rate=24",
+                "--save_depth=1",
+                "--save_coords=1",
+                "--render_samples_per_pixel=16",
+                "--focal_length=32",
+                "--fixed_alter_poses=1",
+                "--few_views=4"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "preLaunchTask": "cleanup-tmp",
+            "postDebugTask": "cleanup-tmp"
+        }
+    ]
+}

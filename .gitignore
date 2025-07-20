@@ -1,0 +1,8 @@
+
+*.ckpt
+*.pyc
+gradio_output/
+logs/
+output/
+data-gen/jobs
+*.safetensors
